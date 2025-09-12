@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoDeEstacionamento.WebApi", "GestaoDeEstacionamento\GestaoDeEstacionamento.WebApi.csproj", "{E13CF344-EBB2-4ABF-BED0-D75AAA2ABC8B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Distribuição", "1.Distribuição", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Core", "2.Core", "{E006B445-6246-4F9A-8DE3-53D8995F7B1D}"
@@ -17,16 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoDeEstacionamento.Core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoDeEstacionamento.Infraestrutura.Orm", "GestaoDeEstacionamento.Infraestrutura.Orm\GestaoDeEstacionamento.Infraestrutura.Orm.csproj", "{EFF71EE8-69FB-4D43-BF2D-D154A6BC783E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoDeEstacionamento.WebApi", "web-api\GestaoDeEstacionamento.WebApi.csproj", "{A0123344-73B0-D212-6AC0-36577BAC2356}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E13CF344-EBB2-4ABF-BED0-D75AAA2ABC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E13CF344-EBB2-4ABF-BED0-D75AAA2ABC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E13CF344-EBB2-4ABF-BED0-D75AAA2ABC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E13CF344-EBB2-4ABF-BED0-D75AAA2ABC8B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ECB39C91-0AA1-43DF-927D-86BC46DC6F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ECB39C91-0AA1-43DF-927D-86BC46DC6F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECB39C91-0AA1-43DF-927D-86BC46DC6F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,15 +35,19 @@ Global
 		{EFF71EE8-69FB-4D43-BF2D-D154A6BC783E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFF71EE8-69FB-4D43-BF2D-D154A6BC783E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFF71EE8-69FB-4D43-BF2D-D154A6BC783E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0123344-73B0-D212-6AC0-36577BAC2356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0123344-73B0-D212-6AC0-36577BAC2356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0123344-73B0-D212-6AC0-36577BAC2356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0123344-73B0-D212-6AC0-36577BAC2356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E13CF344-EBB2-4ABF-BED0-D75AAA2ABC8B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{ECB39C91-0AA1-43DF-927D-86BC46DC6F8A} = {E006B445-6246-4F9A-8DE3-53D8995F7B1D}
 		{5BEF7C65-711E-4123-9B96-79545B5C4C09} = {E006B445-6246-4F9A-8DE3-53D8995F7B1D}
 		{EFF71EE8-69FB-4D43-BF2D-D154A6BC783E} = {7BE8134D-713F-40C2-9FB9-FAAEF0E0DCAC}
+		{A0123344-73B0-D212-6AC0-36577BAC2356} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09C2417C-8F52-4245-9F37-CD991D273CF4}
