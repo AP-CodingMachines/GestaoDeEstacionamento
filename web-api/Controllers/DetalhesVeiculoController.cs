@@ -10,8 +10,13 @@ namespace GestaoDeEstacionamento.WebApi.Controllers
 
         public DetalhesVeiculoController(ILogger<DetalhesVeiculoController> logger)
         {
-            _logger = logger;   
+            _logger = logger;
         }
 
+        public async Task<IActionResult> Index()
+        {
+            return View();
+
+        }
     }
 }

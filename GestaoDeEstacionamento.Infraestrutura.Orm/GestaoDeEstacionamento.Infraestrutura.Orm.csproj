@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoDeEstacionamento.Core.Dominio\GestaoDeEstacionamento.Core.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>
